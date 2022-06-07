@@ -9,14 +9,23 @@ li.nav__items{
     font-size: 18px;
     padding-bottom: 15px;
 }
+li.nav__items:hover,
+li.nav__items:focus{
+    color: #ff286f;
+    opacity: 0.9;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.1em);
+    transition: all 350ms linear;
+}
 .home__content{
     padding: 125px 0px;
 }
 h1.home__text{
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 3px;
-    color: rgba(198,201,216,.75)!important;
+    padding-left: 2px;
+    color: rgba(0, 0, 0, 0.705)!important;
 }
 h2.home__text{
     font-size: 54px;
@@ -67,6 +76,22 @@ ul.sidebar.d__flex {
 }
 li.sideNavbar{
     padding: 25px 30px;
+}
+li.sideNavbar:hover,
+li.sideNavbar:focus{
+    background: #3a3a3a72;
+    opacity: 0.9;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.2em);
+    transition: all 250ms linear;
+}
+li.sideNavbar a:hover{
+    /* background: #00ff95; */
+    color: #ff286f;
+    opacity: 0.9;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.2em);
+    transition: all 250ms linear;
 }
 /* RESPONSIVE */
 @media only screen and (max-width: 768px){
