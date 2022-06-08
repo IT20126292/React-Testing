@@ -44,8 +44,8 @@ export default function Home() {
               <div className="toggle__menu">
                 <svg onClick={() => setShow(!show)}
                   xmlns="http://www.w3.org/2000/svg"
-                  width="18"
-                  height="18"
+                  width="28"
+                  height="28"
                   fill="currentColor"
                   className="bi bi-justify white pointer"
                   viewBox="0 0 16 16"
