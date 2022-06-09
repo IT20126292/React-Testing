@@ -46,4 +46,18 @@ textarea#message{
 }
 button.btn.contact.pointer {
     margin: 20px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid #247bff;
+    background-color: #247bff;
+    color: #fff!important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .8s all ease;
+}
+button.btn.contact.pointer:hover {
+    background-color: #fff;
+    border: 2px solid #f9004d;
+    color: #f9004d!important;
 }

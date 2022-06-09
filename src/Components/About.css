@@ -17,8 +17,15 @@ button.about.btn.pointer {
     width: 195px;
     height: 55px;
     font-size: 18px;
-    transition: .4s ease;
+    transition: .8s ease;
+    border: 2px solid #247bff;
     background-color: #247bff;
+    color: #fff!important;
+}
+button.about.btn.pointer:hover{
+    background-color: #fff;
+    border: 2px solid #f9004d;
+    color: #f9004d!important;
 }
 .about__button{
     padding: 20px 0px;

@@ -74,12 +74,12 @@ button.btn {
     font-size: 18px;
     font-weight: 500;
     border-radius: 5px;
-    border: 2px solid #f9004d;
-    background-color: #f9004d;
+    border: 2px solid #247bff;
+    background-color: #247bff;
     color: #fff!important;
     text-transform: uppercase;
     letter-spacing: 2px;
-    transition: .4s all ease;
+    transition: .8s all ease;
 }
 button.view__more:hover{
     background-color: #fff;
