@@ -11,7 +11,7 @@ li.nav__items{
 }
 li.nav__items:hover,
 li.nav__items:focus{
-    color: #ff286f;
+    color: #247bff;
     opacity: 0.9;
     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
     transform: translateY(-0.1em);
@@ -69,7 +69,7 @@ ul.sidebar.d__flex {
     height: 100%;
     position: fixed;
     right: 0%;
-    background: #010101;
+    background: #010101d6;
     justify-content: center;
     width: 300px;
     top: 0%;
@@ -88,7 +88,7 @@ li.sideNavbar:focus{
 }
 li.sideNavbar a:hover{
     /* background: #00ff95; */
-    color: #ff286f;
+    color: #247bff;
     opacity: 0.9;
     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
     transform: translateY(-0.2em);

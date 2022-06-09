@@ -18,6 +18,7 @@ button.about.btn.pointer {
     height: 55px;
     font-size: 18px;
     transition: .4s ease;
+    background-color: #247bff;
 }
 .about__button{
     padding: 20px 0px;
@@ -28,7 +29,7 @@ a.bottom__to__top{
     position: fixed;
     bottom: 3%;
     right: 2%;
-    background-color: #F9004D;
+    background-color: #247bff;
     border-radius: 50%;
     cursor: pointer;
     display: none;
