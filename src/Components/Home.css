@@ -11,7 +11,7 @@ li.nav__items{
 }
 li.nav__items:hover,
 li.nav__items:focus{
-    color: #247bff;
+    color: #003b95;
     opacity: 0.9;
     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
     transform: translateY(-0.1em);
@@ -40,6 +40,10 @@ h3.home__text{
     line-height: 40px;
     color: #247bff;
 }
+.multiText {
+    color: deeppink;
+    text-transform: capitalize;
+}
 h4.home__text{
     font-size: 50px;
     font-weight: 800;
@@ -55,7 +59,7 @@ h4.home__text{
     z-index: 1000;
     width: 100%;
     padding: 0px 30px;
-    background-color: #191919;
+    background-color: #247bff;
 }
 .toggle__menu {
     display: flex;
@@ -88,7 +92,7 @@ li.sideNavbar:focus{
 }
 li.sideNavbar a:hover{
     /* background: #00ff95; */
-    color: #247bff;
+    color: #003b95;
     opacity: 0.9;
     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
     transform: translateY(-0.2em);

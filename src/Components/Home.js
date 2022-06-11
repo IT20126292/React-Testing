@@ -1,4 +1,7 @@
 import React, { useState } from 'react'
+// import Typed from 'typed.js';
+import { Typewriter } from 'react-simple-typewriter'
+import 'react-simple-typewriter/dist/index.css'
 import './Home.css'
 import logo from '../img/logo.png'
 
@@ -10,6 +13,17 @@ export default function Home() {
     });
     // Toogle Menu
     const [show, setShow] = useState(false);
+
+    //multiText
+    // var options = {
+    //   strings: ['Full Stack Developer', 'UI/UX Designer', 'Freelancer'],
+    //   loop:true,
+    //   typeSpeed: 100,
+    //   backSpeed: 80,
+    //   backDelay: 1500
+    // };
+    
+    // var typed = new Typed('.multiText', options);
     
     return (
         <div className="home" id="Home">
@@ -87,7 +101,21 @@ export default function Home() {
                 <div className="home__meta">
                   <h1 className="home__text pz__10">WELCOME TO MY WORLD</h1>
                   <h2 className="home__text pz__10">Hi, I’m Kavisha Silva</h2>
-                  <h3 className="home__text pz__10">Full Stack Developer.</h3>
+                  <h3 className="home__text pz__10">Full Stack Developer</h3>
+                  {/* <h3 className="home__text pz__10">
+                    I'm a 
+                    <span className='multiText'>
+                      <Typewriter
+                        loop
+                        cursor
+                        cursorStyle='|'
+                        typeSpeed={100}
+                        deleteSpeed={50}
+                        delaySpeed={1500}
+                        words={['Full Stack Developer', 'UI/UX Designer', 'Freelancer']}
+                      />
+                    </span>
+                  </h3> */}
                   <h4 className="home__text pz__10">based in Sri Lanka.</h4>
                 </div>
               </div>
