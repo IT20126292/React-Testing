@@ -22,10 +22,10 @@ li.nav__items:focus{
 }
 h1.home__text{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 3px;
-    padding-left: 2px;
-    color: rgba(0, 0, 0, 0.705)!important;
+    padding-left: 3px;
+    color: rgba(198,201,216,.75)!important;
 }
 h2.home__text{
     font-size: 54px;
@@ -35,8 +35,8 @@ h2.home__text{
 }
 h3.home__text{
     font-size: 50px;
-    font-weight: 800;
-    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 40px;
     color: #247bff;
 }
