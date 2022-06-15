@@ -35,7 +35,7 @@ export default function About() {
                 but the majority have suffered in some form, by injected humour,
               </p>
               <div className="about__button d__flex align__items__center">
-                <a href=".">
+                <a href="https://drive.google.com/uc?export=download&id=1d4bZv8x5tb7nEWyLrn8Vl1G6OgrgvWZ8">
                   <button className="about btn pointer">Download Cv</button>
                 </a>
                 <a href=".">
