@@ -38,7 +38,7 @@ export default function About() {
                 <a href="https://drive.google.com/uc?export=download&id=1d4bZv8x5tb7nEWyLrn8Vl1G6OgrgvWZ8">
                   <button className="about btn pointer">Download Cv</button>
                 </a>
-                <a href=".">
+                <a href="kavisha.contactme@gmail.com">
                   <button className="about btn pointer">Hire Me</button>
                 </a>
               </div>
