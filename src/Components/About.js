@@ -19,10 +19,10 @@ export default function About() {
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+                Hiii I'm kavisha Silva, So allow me to introduce myself. 
+                I don't think we've met before it's such a honour to meet you all. 
+                You will be able to come across many interesting things from my website. 
+                So stay tuned.
               </p>
               <p className="about__text p__color">
                 There are many variations of passages of Lorem Ipsum available,

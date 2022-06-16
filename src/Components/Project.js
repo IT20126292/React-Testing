@@ -10,8 +10,9 @@ export default function Project() {
     <div className="project component__space" id="Portfolio">
       <div className="heading">
         <h1 className="heading">My Latest Project</h1>
-        <p className="heading p__color">
-          There are many variations of passages of Lorem Ipsum available,
+        <p style={{textAlign:'center'}} className="heading p__color">
+          Lets see, What's on my page. <br/>I have been experienced about many opportunities that make a good project planner through the academic years that I spent in university!. 
+          <br/>I hope you will also experience my positive vibes towards project planning from below projects...!
         </p>
         <p className="heading p__color">
           but the majority have suffered alteration.
