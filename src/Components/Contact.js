@@ -11,7 +11,7 @@ export default function Contact() {
                         <div className="contact__meta">
                             <h1 className="hire__text">Hire Me.</h1>
                             <p style={{textAlign:'left'}} className="hire__text white">I'd be delighted to set aside some time for you. And I'm available <br/>if you'd want to have a chat with me about developing a solution <br/>for you. Let's talk about your future together. <br/>I am available for freelance work. Connect with me via phone:</p>
-                            <p className="hire__text white"><strong>+8436 14 245</strong> or email <strong>admin@example.com</strong></p>
+                            <p className="hire__text white"><strong>+9476 446 5200</strong> or email <strong>kavisha.contactme@gmail.com</strong></p>
                         </div>
                         <div className="input__box">
                            <input type="text" className="contact name" placeholder="Your name *" />
