@@ -1,4 +1,5 @@
 import './App.css';
+//imported components
 import About from './Components/About';
 import Blog from './Components/Blog';
 import Contact from './Components/Contact';
